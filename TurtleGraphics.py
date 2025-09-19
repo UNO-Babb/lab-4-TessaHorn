@@ -11,8 +11,8 @@ def drawSquare(myTurtle, size):
         myTurtle.right(90)
 def drawPolygon5(tessa, sides):
     for s in range(sides):
-        tessa.forward(90)
-        tessa.right(45)
+        tessa.forward(60)
+        tessa.right(72)
 def drawPolygon8(tessa, sides):
     for s in range(sides):
         tessa.forward(60)
@@ -49,12 +49,12 @@ def squaresInSquares(tessa, numSquares):
         size += 30
 def main():
     myTurtle = turtle.Turtle()
-    # drawPolygon(myTurtle, 5) #draws a pentagon
-    # drawPolygon(myTurtle, 8) #draws an octogon
-    # fillCorner(myTurtle, 2) #draws a square with top right corner filled in.
-    # fillCorner(myTurtle, 3) #draws a square bottom left corner filled in
-    # squaresInSquares(myTurtle, 5) #draws 5 cocentric squares
-   #squaresInSquares(myTurtle, 3 #draws 3 cocentric squares
+    #drawPolygon5(myTurtle, 5) #draws a pentagon
+    #drawPolygon8(myTurtle, 8) #draws an octogon
+    #fillCorner(myTurtle, 2) #draws a square with top right corner filled in.
+    #fillCorner(myTurtle, 3) #draws a square bottom left corner filled in
+    #squaresInSquares(myTurtle, 5) #draws 5 cocentric squares
+    #squaresInSquares(myTurtle, 3) #draws 3 cocentric squares
 
 
 main()
